@@ -24,36 +24,28 @@ public class Customer {
     public int getCustomerId() {
         return customerId;
     }
-
     public String getName() {
         return name;
     }
-
     public String getPreferredSize() {
         return preferredSize;
     }
-
     public int getLoyaltyPoints() {
         return loyaltyPoints;
     }
-
     // Setters
     public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public void setPreferredSize(String preferredSize) {
         this.preferredSize = preferredSize;
     }
-
     public void setLoyaltyPoints(int loyaltyPoints) {
         this.loyaltyPoints = loyaltyPoints;
     }
-
     // Additional methods
     public void addPoints(int points) {
         loyaltyPoints += points;

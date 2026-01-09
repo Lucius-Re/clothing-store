@@ -28,19 +28,15 @@ public class ClothingItem {
     public int getItemId() {
         return itemId;
     }
-
     public String getName() {
         return name;
     }
-
     public String getSize() {
         return size;
     }
-
     public double getPrice() {
         return price;
     }
-
     public String getBrand() {
         return brand;
     }
@@ -49,19 +45,15 @@ public class ClothingItem {
     public void setItemId(int itemId) {
         this.itemId = itemId;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public void setSize(String size) {
         this.size = size;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
-
     public void setBrand(String brand) {
         this.brand = brand;
     }
@@ -70,7 +62,6 @@ public class ClothingItem {
     public void applyDiscount(double percentage) {
         price = price * (1 - percentage / 100);
     }
-
     public boolean isPremium() {
         return price > 20000;
     }
